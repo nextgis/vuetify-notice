@@ -1,5 +1,5 @@
 export type IconType =
-  String
+  | string
   | 'complete'
   | 'cancel'
   | 'close'

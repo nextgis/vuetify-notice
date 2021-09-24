@@ -1,6 +1,6 @@
 {
   "name": "@nextgis/vuetify-notice",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "component to display quick message and dialog to a user",
   "main": "index.js",
   "module": "lib/vuetify-notice.esm-bundler.js",
@@ -35,11 +35,13 @@
   },
   "homepage": "https://github.com/rendrom/vuetify-notice#readme",
   "dependencies": {
-    "vue": "^2.6.12",
-    "vuetify": "^2.4.11"
+    "@nextgis/cancelable-promise": "^1.8.0",
+    "vue": "^2.6.14",
+    "vuetify": "^2.5.8"
   },
   "devDependencies": {
-    "@nextgis/build-tools": "1.0.0-beta.8",
-    "rollup-plugin-vue": "^5.1.9"
+    "@nextgis/build-tools": "1.7.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.14"
   }
 }
