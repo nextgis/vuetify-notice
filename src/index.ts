@@ -89,8 +89,8 @@ export function confirmDialog(
   }
   if (createNoticeCmp) {
     return createNoticeCmp(Confirm, {
-      ...getOptions<ConfirmOptions>('confirmDialog'),
       ...options,
+      ...getOptions<ConfirmOptions>('confirmDialog'),
     });
   } else {
     throw Error('CreateNotice is not installed yet');
@@ -112,8 +112,8 @@ export function notice(
       noticePromise.cancel();
     }
     noticePromise = createNoticeCmp(Notice, {
-      ...getOptions<NoticeOptions>('notice'),
       ...options,
+      ...getOptions<NoticeOptions>('notice'),
     });
     return noticePromise;
   } else {
